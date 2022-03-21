@@ -1,4 +1,3 @@
-import React from "react"
 import { FaReact } from "react-icons/fa"
 import { BiGitBranch } from "react-icons/bi"
 import { SiJavascript, SiTailwindcss, SiLua, SiNetlify, SiC, SiRust, SiGnubash } from "react-icons/si"

@@ -1,4 +1,3 @@
-import React from "react";
 import profile from "../images/profile.jpg"
 import { FaGithub, FaYoutube, FaTwitter, FaInstagram } from "react-icons/fa"
 
