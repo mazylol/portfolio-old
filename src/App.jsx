@@ -18,14 +18,18 @@ function App() {
 
   return (
     <div className="min-h-screen py-10 px-3 sm:px-5 bg-gray-300">
-      <div data-aos="fade-down" data-aos-duration="800">
+      <div data-aos="fade-right" data-aos-duration="800">
         <Card />
       </div>
-      <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+      <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="400">
         <About />
       </div>
-      <Skills />
-      <ContactMe />
+      <div data-aos="fade-right" data-aos-duration="800" data-aos-delay="25">
+        <Skills />
+      </div>
+      <div data-aos="flip-up" data-aos-duration="800" data-aos-delay="50">
+        <ContactMe />
+      </div>
       <Footer />
     </div>
   )
