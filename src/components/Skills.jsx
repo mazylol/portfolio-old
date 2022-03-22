@@ -8,7 +8,7 @@ function Skills() {
   return (
     <div className="max-w-4xl mx-auto justify-center py-12" id="tech">
       <p className="text-2xl text-black text-center sm:text-4xl font-bold">
-        Tech I Use
+        Skills
       </p>
       <div className="flex flex-wrap justify-center pt-2">
       <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52">
