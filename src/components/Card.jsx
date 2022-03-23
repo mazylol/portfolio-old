@@ -4,9 +4,9 @@ import { FaGithub, FaYoutube, FaTwitter, FaInstagram } from "react-icons/fa"
 function Card() {
   return (
     <div className="w-full">
-      <div className="flex flex-col justify-center max-w-xs mx-auto bg-white shadow-xl rounded-xl p-5">
+      <div className="flex flex-col justify-center max-w-sm mx-auto bg-white shadow-xl rounded-xl p-5">
         <div className="">
-          <img className="w-32 mx-auto shadow-xl rounded-full drop-shadow-lg" src={profile} alt="profile photo" />
+          <img className="w-48 mx-auto shadow-xl rounded-full drop-shadow-lg" src={profile} alt="profile photo" />
         </div>
       <div className="text-center mt-5">
         <p className="text-xl sm:text-2xl text-gray-900">
